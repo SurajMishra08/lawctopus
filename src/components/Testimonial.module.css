@@ -1,0 +1,211 @@
+.testimonials {
+  padding: 100px 0;
+  background: #f8fbff;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.heading span {
+  display: inline-block;
+  color: #4f46e5;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.heading h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.heading p {
+  max-width: 700px;
+  margin: auto;
+  color: #6b7280;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 24px;
+  padding: 35px;
+  height: 100%;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.35s ease;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 6px;
+  background: linear-gradient(180deg, #4f46e5, #7c3aed);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 55px rgba(79, 70, 229, 0.15);
+}
+
+.quote {
+  font-size: 42px;
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.stars svg {
+  color: #fbbf24;
+  font-size: 18px;
+}
+
+.review {
+  color: #4b5563;
+  line-height: 1.9;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 22px;
+}
+
+.avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.profile h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #111827;
+  font-weight: 700;
+}
+
+.profile span {
+  display: block;
+  margin-top: 5px;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+.stats {
+  margin-top: 80px;
+}
+
+.statCard {
+  background: #fff;
+  border-radius: 20px;
+  padding: 35px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.statCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(79, 70, 229, 0.12);
+}
+
+.statCard h3 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.statCard p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 991px) {
+  .testimonials {
+    padding: 80px 0;
+  }
+
+  .heading h2 {
+    font-size: 36px;
+  }
+
+  .card {
+    padding: 30px;
+  }
+
+  .stats {
+    margin-top: 60px;
+  }
+
+  .statCard {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 70px 0;
+  }
+
+  .heading h2 {
+    font-size: 30px;
+  }
+
+  .heading p {
+    font-size: 15px;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .quote {
+    font-size: 36px;
+  }
+
+  .review {
+    font-size: 15px;
+  }
+
+  .avatar {
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+  }
+
+  .profile h4 {
+    font-size: 18px;
+  }
+
+  .statCard h3 {
+    font-size: 30px;
+  }
+}

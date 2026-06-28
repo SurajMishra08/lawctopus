@@ -1,0 +1,193 @@
+.instructor {
+  padding: 100px 0;
+  background: #f8fbff;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.heading span {
+  display: inline-block;
+  color: #4f46e5;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.heading h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 18px;
+}
+
+.heading p {
+  max-width: 700px;
+  margin: auto;
+  color: #6b7280;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 15px 45px rgba(0,0,0,.08);
+  transition: .4s;
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 25px 60px rgba(79,70,229,.18);
+}
+
+.imageBox {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  transition: .5s;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: linear-gradient(135deg,#4f46e5,#7c3aed);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 50px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.content {
+  padding: 35px;
+}
+
+.role {
+  color: #4f46e5;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.content h3 {
+  margin-top: 12px;
+  font-size: 30px;
+  color: #111827;
+}
+
+.content h4 {
+  margin: 12px 0 18px;
+  color: #6b7280;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.content p {
+  color: #6b7280;
+  line-height: 1.8;
+}
+
+.content ul {
+  margin-top: 25px;
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.content ul li svg {
+  color: #4f46e5;
+}
+
+.experience {
+  margin-top: 30px;
+}
+
+.experience span {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.linkedin {
+  margin-top: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #0A66C2;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 50px;
+  transition: .3s;
+  font-weight: 600;
+}
+
+.linkedin:hover {
+  transform: translateY(-3px);
+  background: #004182;
+  color: white;
+}
+
+@media (max-width:991px){
+
+.heading h2{
+    font-size:36px;
+}
+
+.imageBox img{
+    height:320px;
+}
+
+.content{
+    padding:28px;
+}
+
+}
+
+@media(max-width:768px){
+
+.instructor{
+    padding:70px 0;
+}
+
+.heading h2{
+    font-size:30px;
+}
+
+.content h3{
+    font-size:24px;
+}
+
+}
