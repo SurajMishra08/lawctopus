@@ -1,4 +1,4 @@
-import styles from "./WhyJoin.module.css";
+import styles from "./Whyjoin.module.css";
 import { motion } from "framer-motion";
 
 import {
